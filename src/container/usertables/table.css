@@ -1,0 +1,49 @@
+.body-right{
+  /* width: 400px; */
+  display: flex;
+}
+.content-create{
+  /* margin-left: 700px;col-md-12 bc-cl */
+}
+
+.search-center{
+width: 60%;
+/* margin-top: 30px; */
+}
+
+.btn-center{
+float: right;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .search-center{
+  display: table;
+    margin: 0 auto;
+  }
+  .btn-center{
+display: table;
+  margin: 0 auto;
+  float: revert;
+  margin-top: 10px;
+  }
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.required::before {
+  content: " *";
+  color: #ff696f;
+}

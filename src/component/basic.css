@@ -1,0 +1,98 @@
+.text-basic {
+  width: 192px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(50, 84, 146, 0.85);
+}
+
+.profile{
+  width: 600px;
+}
+
+.error-label {
+  color: red;
+}
+
+.text-profile{
+  width: 92px;
+    height: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+
+}
+
+.img-size{
+  width: 350px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-top: -150px;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.img-stl{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 121.9px;
+    height: 52px;
+    left: calc(50% - 121.9px/2 - 0.36px);
+    top: calc(50% - 52px/2 + 0.5px);
+}
+
+.login-sec{
+  width: 500px;
+  margin-left: 590px;
+  margin-top: 200px;
+}
+
+.profile-res{
+  width: 100%;
+  overflow-x: auto;
+}
+
+.login-res {
+  width: auto;
+  overflow-x: auto;
+}
+
+.errorTipDiv {
+  margin: 20px 0;
+  padding: 30px 50px;
+  text-align: center;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.errorTipDiv .ant-spin-dot-item {
+  background: rgb(15, 42, 111);
+}
+
+.errorTipDiv .ant-spin-text {
+  color: rgb(15, 42, 111);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.login-center{
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

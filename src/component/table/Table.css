@@ -1,0 +1,24 @@
+.clickable {
+    cursor: pointer;
+}
+
+.btn-style{
+    border: none;
+    background: transparent;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.assign{
+    width: 100%;    
+}
+
+.pag{
+    width: 100%;
+}
+
+.top-sec{
+    margin-top: 10px;
+}
